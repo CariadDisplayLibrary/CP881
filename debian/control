@@ -1,15 +1,16 @@
-Source: libdisplaycore-font-cp881
+Source: libcariad-font-cp881
 Section: main
 Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
-Package: libdisplaycore-font-cp881
+Package: libcariad-font-cp881
+Replaces: libdisplaycore-font-cp881
 Section: main
 Architecture: all
-XBSC-Group: DisplayCore
+XBSC-Group: Cariad
 XBSC-Subgroup: Fonts
-Depends: libdisplaycore-core
+Depends: libcariad-core
 Provides: CP881.h
 Description: CP881 (VGA Code Page 881)
